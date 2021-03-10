@@ -60,7 +60,7 @@
         ]
       },            
       {
-        "title":"Banyuwangi",
+        "title":"Bali",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id",
@@ -68,10 +68,10 @@
         ]
       },
       {
-        "title":"Banyuwangi",
+        "title":"JaBar",
         "provider":"wordpress",
         "arguments":[
-          "harapanrakyat.com/category",
+          "https://www.harapanrakyat.com/wp-json/wp/v2/",
           "berita-jabar"
         ]
       },
