@@ -53,13 +53,28 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Berita",
+        "title":"Hari Ini",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id", "berita"
         ]
+      },            
+      {
+        "title":"Banyuwangi",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "bali"
+        ]
       },
-            
+      {
+        "title":"Banyuwangi",
+        "provider":"wordpress",
+        "arguments":[
+          "harapanrakyat.com/category",
+          "berita-jabar"
+        ]
+      },
       {
         "title":"Banyuwangi",
         "provider":"wordpress",
