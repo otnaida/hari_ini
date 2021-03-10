@@ -6,7 +6,7 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Terbaru",
+        "title":"Hari Ini",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id"
