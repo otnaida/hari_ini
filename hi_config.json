@@ -47,31 +47,16 @@
     ]
   },
   {
-    "title":"Regional",
+    "title":"Jawa Timur",
     "drawable":"",
-    "submenu":"Kategori Berita",
+    "submenu":"Regional",
     "iap":false,
     "tabs":[
       {
-        "title":"Regional",
+        "title":"Jawa Timur",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id", "berita"
-        ]
-      },            
-      {
-        "title":"Bali",
-        "provider":"wordpress",
-        "arguments":[
-          "indonesiaonline.co.id",
-          "bali"
-        ]
-      },
-      {
-        "title":"JaBar",
-        "provider":"rss",
-        "arguments":[
-          "https://www.harapanrakyat.com/category/berita-banjar/feed/",
         ]
       },
       {
@@ -83,11 +68,27 @@
         ]
       },
       {
-        "title":"Kudus",
+        "title":"Madura",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id",
-          "kudus"
+          "madura"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Jawa Tengah",
+    "drawable":"",
+    "submenu":"Regional",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Banyuwangi",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "banyuwangi"
         ]
       },
       {
@@ -97,13 +98,52 @@
           "indonesiaonline.co.id",
           "madura"
         ]
+      }
+    ]
+  },
+  {
+    "title":"Jawa Barat",
+    "drawable":"",
+    "submenu":"Regional",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Jawa Barat",
+        "provider":"rss",
+        "arguments":[
+          "https://www.harapanrakyat.com/category/berita-jabar/feed/", ""
+        ]
+      },            
+      {
+        "title":"Banjar",
+        "provider":"rss",
+        "arguments":[
+          "https://www.harapanrakyat.com/category/berita-banjar/feed/",
+          ""
+        ]
       },
       {
-        "title":"Solo",
-        "provider":"wordpress",
+        title":"Ciamis",
+        "provider":"rss",
         "arguments":[
-          "indonesiaonline.co.id",
-          "solo"
+          "https://www.harapanrakyat.com/category/berita-ciamis/feed/",
+          ""
+        ]
+      },
+      {
+        title":"Pangandaran",
+        "provider":"rss",
+        "arguments":[
+          "https://www.harapanrakyat.com/category/berita-pangandaran/feed/",
+          ""
+        ]
+      },
+      {
+        title":"Tasikmalaya",
+        "provider":"rss",
+        "arguments":[
+          "https://www.harapanrakyat.com/category/berita-tasikmalaya/feed/",
+          ""
         ]
       }
     ]
