@@ -53,7 +53,7 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Hari Ini",
+        "title":"Regional",
         "provider":"wordpress",
         "arguments":[
           "indonesiaonline.co.id", "berita"
@@ -69,10 +69,9 @@
       },
       {
         "title":"JaBar",
-        "provider":"wordpress",
+        "provider":"rss",
         "arguments":[
-          "https://www.harapanrakyat.com/wp-json/wp/v2/",
-          "berita-jabar"
+          "https://www.harapanrakyat.com/category/berita-banjar/feed/",
         ]
       },
       {
