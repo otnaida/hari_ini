@@ -1,69 +1,95 @@
 [
   {
-    "title":"Wordpress Blogs",
+    "title":"Hari Ini",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Recent",
+        "title":"Hari Ini",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com"
+          "indonesiaonline.co.id"
         ]
       },
       {
-        "title":"Themes",
+        "title":"Peristiwa",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com",
-          "themes"
+          "indonesiaonline.co.id",
+          "peristiwa"
         ]
       },
       {
-        "title":"Security",
+        "title":"Hukum & Kriminal",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com",
-          "security"
+          "indonesiaonline.co.id",
+          "hukum-dan-kriminalitas"
         ]
       },
       {
-        "title":"Events",
+        "title":"Politik",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com",
-          "events"
+          "indonesiaonline.co.id",
+          "politik"
+        ]
+      },
+      {
+        "title":"Ekonomi",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "ekonomi"
         ]
       }
     ]
   },
   {
-    "title":"Live TV ABC",
+    "title":"Regional",
     "drawable":"",
-    "submenu":"",
+    "submenu":"Kategori Berita",
     "iap":false,
     "tabs":[
       {
-        "title":"Live TV ABC",
-        "provider":"stream",
+        "title":"Berita",
+        "provider":"wordpress",
         "arguments":[
-          "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "indonesiaonline.co.id", "berita"
         ]
-      }
-    ]
-  },
-  {
-    "title":"Radio 3FM",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
+      },
+            
       {
-        "title":"Radio 3FM",
-        "provider":"radio",
+        "title":"Banyuwangi",
+        "provider":"wordpress",
         "arguments":[
-          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1627230"
+          "indonesiaonline.co.id",
+          "banyuwangi"
+        ]
+      },
+      {
+        "title":"Kudus",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "kudus"
+        ]
+      },
+      {
+        "title":"Madura",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "madura"
+        ]
+      },
+      {
+        "title":"Solo",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "solo"
         ]
       }
     ]
@@ -71,303 +97,217 @@
   {
     "title":"RSS",
     "drawable":"",
-    "submenu":"",
+    "submenu":"Kategori Berita",
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
+        "title":"Jawa Barat",
         "provider":"rss",
         "arguments":[
           "https://www.harapanrakyat.com/category/berita-jabar/feed/"
         ]
       },
       {
-        "title":"Podcast",
+        "title":"Banjar",
         "provider":"rss",
         "arguments":[
-          "http://feeds.nature.com/nature/podcast/current"
+          "https://www.harapanrakyat.com/category/berita-banjar/feed/"
         ]
       }
     ]
   },
   {
-    "title":"Home",
+    "title":"Tekno",
     "drawable":"",
-    "submenu":"WooCommerce",
+    "submenu":"Kategori Berita",
     "iap":false,
     "tabs":[
       {
-        "title":"Shop",
-        "provider":"woocommerce",
-        "arguments":[
-          "home", "https://sherdle.com/apphosting/universal/woocommerce/wp-content/uploads/2020/06/featured-e1599925157515.png", "https://sherdle.com/apphosting/universal/woocommerce/wp-content/uploads/2020/06/sale.png", "https://sherdle.com/apphosting/universal/woocommerce/wp-content/uploads/2020/06/sale.png"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Orders",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Orders",
-        "provider":"woocommerce",
-        "arguments":[
-          "orders"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Photos",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Tumblr",
-        "provider":"tumblr",
-        "arguments":[
-          "beeple"
-        ]
-      },
-      {
-        "title":"Flickr",
-        "provider":"flickr",
-        "arguments":[
-          "72157657805551378",
-          "photoset"
-        ]
-      },
-      {
-        "title":"Wordpress",
-        "provider":"wordpress_images",
-        "arguments":[
-          "en.blog.wordpress.com"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Audio",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"SoundCloud",
-        "provider":"soundcloud",
-        "arguments":[
-          "212094702", "playlist"
-        ]
-      },
-      {
-        "title":"Playlist JP",
-        "provider":"wordpress_audio",
-        "arguments":[
-          "musicservlet.azurewebsites.net", ""
-        ]
-      },
-      {
-        "title":"Playlist REST",
-        "provider":"wordpress_audio",
-        "arguments":[
-          "http://musicservlet.azurewebsites.net/wp-json/wp/v2/", ""
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Twitter",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Twitter",
-        "provider":"twitter",
-        "arguments":[
-          "Android"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Instagram",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Instagram",
-        "provider":"instagram",
-        "arguments":[
-          "17841402834084629", ""
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Facebook",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Facebook",
-        "provider":"facebook",
-        "arguments":[
-          "307700939773381", ""
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Videos",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Youtube Playlist",
-        "provider":"youtube",
-        "arguments":[
-          "UU7V6hW6xqPAiUfataAZZtWA",
-          "playlist",
-          ""
-        ]
-      },
-      {
-        "title":"Youtube Channel",
-        "provider":"youtube",
-        "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
-          "channel",
-          ""
-        ]
-      },
-      {
-        "title":"Youtube Live",
-        "provider":"youtube",
-        "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
-          "live",
-          ""
-        ]
-      },
-      {
-        "title":"Wordpress REST",
-        "provider":"wordpress_video",
-        "arguments":[
-          "http://musicservlet.azurewebsites.net/wp-json/wp/v2/", ""
-        ]
-      },
-      {
-        "title":"Vimeo AL",
-        "provider":"vimeo",
-        "arguments":[
-          "3767141", "album"
-        ]
-      },
-      {
-        "title":"Vimeo USR",
-        "provider":"vimeo",
-        "arguments":[
-          "insolenceproductions", "user"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Pinterest",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Pinterest",
-        "provider":"pinterest",
-        "arguments":[
-          "515451188540423446"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Categories",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Categories",
-        "provider":"overview",
-        "arguments":[
-          "overview.json"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Wordpress Rest",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WP Rest",
+        "title":"Tekno",
         "provider":"wordpress",
         "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
-        ]
-      },
-      {
-        "title":"WP Page",
-        "provider":"wordpress_page",
-        "arguments":[
-          "https://sherdle.com/apphosting/universal/woocommerce/wp-json/wp/v2/",
-          "144"
+          "indonesiaonline.co.id", "tekno"
         ]
       }
     ]
   },
   {
-    "title":"Location",
+    "title":"Lifestyle",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"Kategori Berita",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Lifestyle",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id", "lifestyle"
+        ]
+      },
+            
+      {
+        "title":"Food",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "food"
+        ]
+      },
+      {
+        "title":"Health",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "health"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Internasional",
+    "drawable":"",
+    "submenu":"Kategori Berita",
     "iap":false,
     "tabs":[
       {
         "title":"",
-        "provider":"maps",
+        "provider":"wordpress",
         "arguments":[
-          "https://www.mapbox.com/help/data/stations.geojson"
+          "indonesiaonline.co.id", "internasional"
         ]
       }
     ]
   },
   {
-    "title":"Custom",
+    "title":"Gaya Hidup",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"Kategori Berita",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id", "gaya-hidup"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Wisata",
+    "drawable":"",
+    "submenu":"Kategori Berita",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id", "wisata"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Resep Masakan",
+    "drawable":"",
+    "submenu":"Kategori Berita",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Resep",
+        "provider":"wordpress",
+        "arguments":[
+          "https://akumasak.com/wp-json/wp/v2/", ""
+        ]
+      },
+            
+      {
+        "title":"Daging",
+        "provider":"wordpress",
+        "arguments":[
+          "akumasak.com",
+          "resep-daging"
+        ]
+      },
+      {
+        "title":"Ayam",
+        "provider":"wordpress",
+        "arguments":[
+          "akumasak.com",
+          "resep-ayam"
+        ]
+      },
+      {
+        "title":"Sayur",
+        "provider":"wordpress",
+        "arguments":[
+          "akumasak.com",
+          "resep-sayur"
+        ]
+      },
+      {
+        "title":"Ikan",
+        "provider":"wordpress",
+        "arguments":[
+          "akumasak.com",
+          "resep-ikan"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Tentang Kami",
+    "drawable":"",
+    "submenu":"Informasi",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Pedoman Media Siber",
+        "provider":"wordpress_page",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "58477"
+        ]
+      },
+      {
+        "title":"About",
+        "provider":"wordpress_page",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "815"
+        ]
+      },
+      {
+        "title":"Redaksi",
+        "provider":"wordpress_page",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "58475"
+        ]
+      },
+      {
+        "title":"Struktur",
+        "provider":"wordpress_page",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "88432"
+        ]
+      },
+      {
+        "title":"Contact us",
+        "provider":"wordpress",
+        "arguments":[
+          "indonesiaonline.co.id",
+          "832"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Pengaturan",
+    "drawable":"",
+    "submenu":"Informasi",
     "iap":false,
     "tabs":[
       {
