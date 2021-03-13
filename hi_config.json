@@ -95,13 +95,13 @@
     ]
   },
   {
-    "title":"Categories",
+    "title":"Kategori Berita",
     "drawable":"",
     "submenu":"Other",
     "iap":false,
     "tabs":[
       {
-        "title":"Categories",
+        "title":"Kategori Berita",
         "provider":"overview",
         "arguments":[
           "https://raw.githubusercontent.com/otnaida/hi_overview/main/hi_overview.json"
