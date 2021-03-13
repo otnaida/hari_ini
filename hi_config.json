@@ -104,7 +104,7 @@
         "title":"Kategori Berita",
         "provider":"overview",
         "arguments":[
-          "https://raw.githubusercontent.com/otnaida/hi_overview/main/hi_overview.json"
+          "https://raw.githubusercontent.com/otnaida/hari_ini/main/hi_overview.json"
         ]
       }
     ]
