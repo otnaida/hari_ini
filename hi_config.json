@@ -104,7 +104,7 @@
         "title":"Categories",
         "provider":"overview",
         "arguments":[
-          "https://raw.githubusercontent.com/otnaida/hi_overview/main/hi_overview.json?raw=true"
+          "https://raw.githubusercontent.com/otnaida/hi_overview/main/hi_overview.json"
         ]
       }
     ]
