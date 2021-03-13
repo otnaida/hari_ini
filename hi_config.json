@@ -95,23 +95,16 @@
     ]
   },
   {
-    "title":"RSS",
+    "title":"Categories",
     "drawable":"",
-    "submenu":"Kategori Berita",
+    "submenu":"Other",
     "iap":false,
     "tabs":[
       {
-        "title":"Jawa Barat",
-        "provider":"rss",
+        "title":"Categories",
+        "provider":"overview",
         "arguments":[
-          "https://www.youtube.com/feeds/videos.xml?channel_id=UC3yFi2eTanFWEE3_ln3XoaQ"
-        ]
-      },
-      {
-        "title":"Banjar",
-        "provider":"rss",
-        "arguments":[
-          "https://www.harapanrakyat.com/category/berita-banjar/feed/"
+          "https://raw.githubusercontent.com/otnaida/hi_overview/main/hi_overview.json?raw=true"
         ]
       }
     ]
