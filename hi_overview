@@ -1,0 +1,51 @@
+[
+  {
+    "title":"Ekonomi",
+    "provider":"wordpress",
+    "image": "https://student-activity.binus.ac.id/hima/wp-content/uploads/sites/9/2016/10/berita-ekonomi.jpg",
+    "arguments":[
+      "indonesiaonline.co.id", "ekonomi"
+    ]
+  },
+  {
+    "title":"Gaya",
+    "provider":"wordpress",
+    "image": "https://media.suara.com/pictures/480x260/2019/01/24/92480-boros.jpg",
+    "arguments":[
+      "indonesiaonline.co.id", "gaya"
+    ]
+  },
+  {
+    "title":"Hiburan",
+    "provider":"wordpress",
+    "image": "https://cdn-2.tstatic.net/style/foto/bank/images/girlsquad_20180928_131937.jpg",
+    "arguments":[
+      "indonesiaonline.co.id", "hiburan"
+    ]
+  },
+  {
+    "title":"Politik",
+    "provider":"wordpress",
+    "image": "http://idolatekno.com/wp-content/uploads/2018/09/Berita-Internasional-9.png",
+    "arguments":[
+      "indonesiaonline.co.id", "politik"
+    ]
+  },
+  {
+    "title":"Olahraga",
+    "provider":"wordpress",
+    "image": "https://optelpharmaceutical.com/wp-content/uploads/2020/10/images.jpg",
+    "arguments":[
+      "indonesiaonline.co.id", "olahraga"
+    ]
+  },
+  {
+    "title":"Opini",
+    "provider":"wordpress",
+    "image": "https://i3.wp.com/any.web.id/wp-content/uploads/2016/05/opini.jpg",
+    "arguments":[
+      "indonesiaonline.co.id", "opini"
+    ]
+  }
+
+]
